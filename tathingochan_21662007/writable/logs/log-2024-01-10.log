@@ -1,0 +1,243 @@
+CRITICAL - 2024-01-10 05:50:54 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/auth/processRegistration', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+
+
+CRITICAL - 2024-01-10 06:06:52 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/auth/processRegistration', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2024-01-10 06:24:26 --> Validation Errors: Array
+(
+    [Fullname] => The Fullname field is required.
+    [Gender] => The Gender field is required.
+    [Birthday] => The Birthday field is required.
+    [Phone] => The Phone field is required.
+)
+
+CRITICAL - 2024-01-10 06:27:08 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/auth/processRegistration', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2024-01-10 06:27:16 --> Validation Errors: Array
+(
+    [username] => The username field must contain a unique value.
+    [email] => The email field must contain a unique value.
+    [Fullname] => The Fullname field is required.
+    [Gender] => The Gender field is required.
+    [Birthday] => The Birthday field is required.
+    [Phone] => The Phone field is required.
+)
+
+ERROR - 2024-01-10 06:27:33 --> Validation Errors: Array
+(
+    [Fullname] => The Fullname field is required.
+    [Gender] => The Gender field is required.
+    [Birthday] => The Birthday field is required.
+    [Phone] => The Phone field is required.
+)
+
+CRITICAL - 2024-01-10 06:29:05 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/auth/processRegistration', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-10 06:30:15 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/auth/processRegistration', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-10 06:37:34 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/auth/processRegistration', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2024-01-10 06:37:39 --> Validation Errors: Array
+(
+    [password] => The password field is required.
+    [Fullname] => The Fullname field is required.
+    [Gender] => The Gender field is required.
+    [Birthday] => The Birthday field is required.
+    [Phone] => The Phone field is required.
+)
+
+ERROR - 2024-01-10 06:37:51 --> Validation Errors: Array
+(
+    [Fullname] => The Fullname field is required.
+    [Gender] => The Gender field is required.
+    [Birthday] => The Birthday field is required.
+    [Phone] => The Phone field is required.
+)
+
+CRITICAL - 2024-01-10 06:38:42 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/auth/processRegistration', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2024-01-10 06:44:12 --> Validation Errors: Array
+(
+    [username] => The username field must contain a unique value.
+    [email] => The email field must contain a unique value.
+)
+
+CRITICAL - 2024-01-10 06:45:56 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/auth/processRegistration', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-10 12:48:13 --> Invalid file: "admin/acc_admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/acc_admin.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/acc_admin', [], true)
+ 3 APPPATH\Controllers\AccountAdminController.php(14): view('admin/acc_admin')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-10 12:48:14 --> Invalid file: "admin/acc_admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/acc_admin.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/acc_admin', [], true)
+ 3 APPPATH\Controllers\AccountAdminController.php(14): view('admin/acc_admin')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-10 12:48:14 --> Invalid file: "admin/acc_admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/acc_admin.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/acc_admin', [], true)
+ 3 APPPATH\Controllers\AccountAdminController.php(14): view('admin/acc_admin')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2024-01-10 13:34:02 --> Undefined variable $category
+ERROR - 2024-01-10 13:41:47 --> Undefined variable $account
+ERROR - 2024-01-10 13:41:49 --> Undefined variable $account
+ERROR - 2024-01-10 13:42:47 --> Undefined variable $account
+ERROR - 2024-01-10 13:42:47 --> Undefined variable $account
+ERROR - 2024-01-10 13:42:47 --> Undefined variable $account
+ERROR - 2024-01-10 15:30:18 --> mysqli_sql_exception: Column 'Gender' cannot be null in C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\app\Controllers\AccountAdminController.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(919): App\Controllers\AccountAdminController->add()
+#9 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+#10 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htd...')
+#13 {main}
+CRITICAL - 2024-01-10 15:30:18 --> Column 'Gender' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `taikhoan` (`MaTaiKhoan`, `username`, `password`, `email`, `Fullname`, `Gender`, `Phone`, `Birthday`) VALUES (:MaTaiKhoan:, :username:, :password:, :email:, :Fullname:, :Gender:, :Phone:, :Birthday:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AccountAdminController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2024-01-10 15:30:27 --> mysqli_sql_exception: Column 'Gender' cannot be null in C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\app\Controllers\AccountAdminController.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(919): App\Controllers\AccountAdminController->add()
+#9 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+#10 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htd...')
+#13 {main}
+CRITICAL - 2024-01-10 15:30:27 --> Column 'Gender' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `taikhoan` (`MaTaiKhoan`, `username`, `password`, `email`, `Fullname`, `Gender`, `Phone`, `Birthday`) VALUES (:MaTaiKhoan:, :username:, :password:, :email:, :Fullname:, :Gender:, :Phone:, :Birthday:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AccountAdminController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2024-01-10 15:31:08 --> mysqli_sql_exception: Column 'Gender' cannot be null in C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\app\Controllers\AccountAdminController.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(919): App\Controllers\AccountAdminController->add()
+#9 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+#10 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htd...')
+#13 {main}
+CRITICAL - 2024-01-10 15:31:08 --> Column 'Gender' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `taikhoan` (`MaTaiKhoan`, `username`, `password`, `email`, `Fullname`, `Gender`, `Phone`, `Birthday`) VALUES (:MaTaiKhoan:, :username:, :password:, :email:, :Fullname:, :Gender:, :Phone:, :Birthday:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AccountAdminController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')

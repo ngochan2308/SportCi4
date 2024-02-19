@@ -1,0 +1,25 @@
+CRITICAL - 2024-01-07 06:39:18 --> Undefined property: App\Controllers\ContactController::$load
+in APPPATH\Controllers\ContactController.php on line 14.
+ 1 APPPATH\Controllers\ContactController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ContactController::$load', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\ContactController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ContactController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+
+CRITICAL - 2024-01-07 11:01:06 --> App\Controllers\AdminController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Controllers\AdminController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+
+
+CRITICAL - 2024-01-07 11:05:42 --> App\Controllers\AdminController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Controllers\AdminController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')

@@ -1,0 +1,17 @@
+CRITICAL - 2024-01-04 03:58:48 --> Call to a member function isValid() on null
+in APPPATH\Controllers\CategoryController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CategoryController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-04 06:35:38 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\user\badminton.php on line 81.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/badminton', [], true)
+ 3 APPPATH\Controllers\BadController.php(21): view('user/badminton', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BadController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BadController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')

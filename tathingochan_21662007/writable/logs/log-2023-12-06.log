@@ -1,0 +1,39 @@
+CRITICAL - 2023-12-06 03:45:51 --> Invalid file: "user/layout/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/layout/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/layout/header', [], true)
+ 3 APPPATH\Views\user\index.php(29): view('user/layout/header')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\index.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/index', [], true)
+ 7 APPPATH\Controllers\UserController.php(12): view('user/index')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+
+
+CRITICAL - 2023-12-06 07:45:04 --> syntax error, unexpected end of file
+in APPPATH\Views\user\shop.php on line 103.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/shop', [], true)
+ 3 APPPATH\Controllers\ShopController.php(12): view('user/shop')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ShopController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2023-12-06 07:54:29 --> Undefined variable $products
+in APPPATH\Views\user\shop.php on line 72.
+ 1 APPPATH\Views\user\shop.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\shop.php', 72)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\shop.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/shop', [], true)
+ 5 APPPATH\Controllers\ShopController.php(12): view('user/shop')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ShopController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2023-12-06 08:07:41 --> Undefined variable $products

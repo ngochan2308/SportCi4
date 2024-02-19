@@ -1,0 +1,89 @@
+CRITICAL - 2023-11-22 06:31:10 --> preg_match(): Compilation failed: missing closing parenthesis at offset 28
+in SYSTEMPATH\Router\Router.php on line 422.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 28', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\system\\Router\\Router.php', 422)
+ 2 SYSTEMPATH\Router\Router.php(422): preg_match('#^admin/product/edit/([0-9]+$#u', 'admin/product/edit/3', [])
+ 3 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('admin/product/edit/3')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('admin/product/edit/3')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+
+
+
+CRITICAL - 2023-11-22 08:03:09 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/auth/processLogin', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2023-11-22 08:09:20 --> Undefined variable $validation
+in APPPATH\Controllers\AdminController.php on line 42.
+ 1 APPPATH\Controllers\AdminController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AdminController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processRegistration()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2023-11-22 08:16:50 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 283.
+ 1 SYSTEMPATH\Model.php(283): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\AdminController.php(44): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processRegistration()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+
+
+
+CRITICAL - 2023-11-22 08:33:09 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 283.
+ 1 SYSTEMPATH\Model.php(283): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\AdminController.php(44): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processRegistration()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2023-11-22 08:35:53 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 283.
+ 1 SYSTEMPATH\Model.php(283): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\AdminController.php(44): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processRegistration()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2023-11-22 08:40:28 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 283.
+ 1 SYSTEMPATH\Model.php(283): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\AdminController.php(44): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processRegistration()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2023-11-22 09:17:33 --> Undefined variable $category
+in APPPATH\Views\admin\product\edit.php on line 24.
+ 1 APPPATH\Views\admin\product\edit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\product\\edit.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\product\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/product/edit', [], true)
+ 5 APPPATH\Controllers\ProductController.php(31): view('admin/product/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')

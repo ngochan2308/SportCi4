@@ -1,0 +1,462 @@
+CRITICAL - 2024-01-15 02:53:23 --> Invalid file: "admin/profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/profile.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/profile', [], true)
+ 3 APPPATH\Controllers\AdminProfileController.php(19): view('admin/profile')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:23:49 --> Invalid file: "profile/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profile/index', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(32): view('profile/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:24:53 --> Invalid file: "profile/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profile/index', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(32): view('profile/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:26:02 --> Invalid file: "profile/edit_profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile/edit_profile.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profile/edit_profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(50): view('profile/edit_profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:26:11 --> Invalid file: "profile/edit_profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile/edit_profile.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profile/edit_profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(50): view('profile/edit_profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+
+
+CRITICAL - 2024-01-15 03:38:25 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 298.
+ 1 SYSTEMPATH\Security\Security.php(298): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('profile/update-profile', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:38:57 --> Call to undefined function csrf_filed()
+in APPPATH\Views\user\profile\edit_profile.php on line 91.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/profile/edit_profile', [], true)
+ 4 APPPATH\Controllers\ProfileController.php(50): view('user/profile/edit_profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->edit()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:39:01 --> Call to undefined function csrf_filed()
+in APPPATH\Views\user\profile\edit_profile.php on line 91.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/profile/edit_profile', [], true)
+ 4 APPPATH\Controllers\ProfileController.php(50): view('user/profile/edit_profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->edit()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:44:08 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ProfileController.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:45:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ProfileController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:47:01 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ProfileController.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 03:55:33 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ProfileController.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 04:40:46 --> Class "App\Controllers\ThanhToanModel" not found
+in APPPATH\Controllers\ThanhToanController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ThanhToanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThanhToanController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 04:43:31 --> Class "App\Controllers\ThanhToanModel" not found
+in APPPATH\Controllers\ThanhToanController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ThanhToanController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThanhToanController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 04:59:53 --> Undefined variable $productCount
+in APPPATH\Views\admin\layout\container.php on line 11.
+ 1 APPPATH\Views\admin\layout\container.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productCount', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/layout/container', [], true)
+ 5 APPPATH\Views\admin\index.php(52): view('admin/layout/container')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\AdminController.php(26): view('admin/index')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 05:01:42 --> Undefined variable $productCount
+in APPPATH\Views\admin\layout\container.php on line 11.
+ 1 APPPATH\Views\admin\layout\container.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productCount', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/layout/container', [], true)
+ 5 APPPATH\Views\admin\index.php(52): view('admin/layout/container')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\AdminController.php(26): view('admin/index')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 05:01:45 --> Undefined variable $productCount
+in APPPATH\Views\admin\layout\container.php on line 11.
+ 1 APPPATH\Views\admin\layout\container.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productCount', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/layout/container', [], true)
+ 5 APPPATH\Views\admin\index.php(52): view('admin/layout/container')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\AdminController.php(26): view('admin/index')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 05:04:21 --> Undefined variable $categoryCount
+in APPPATH\Views\admin\layout\container.php on line 25.
+ 1 APPPATH\Views\admin\layout\container.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryCount', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/layout/container', [], true)
+ 5 APPPATH\Views\admin\index.php(52): view('admin/layout/container')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\AdminController.php(26): view('admin/index')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 05:06:37 --> Undefined variable $userCount
+in APPPATH\Views\admin\layout\container.php on line 41.
+ 1 APPPATH\Views\admin\layout\container.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCount', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/layout/container', [], true)
+ 5 APPPATH\Views\admin\index.php(52): view('admin/layout/container')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\AdminController.php(26): view('admin/index')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 05:06:40 --> Undefined variable $userCount
+in APPPATH\Views\admin\layout\container.php on line 41.
+ 1 APPPATH\Views\admin\layout\container.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCount', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/layout/container', [], true)
+ 5 APPPATH\Views\admin\index.php(52): view('admin/layout/container')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\AdminController.php(26): view('admin/index')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 05:07:37 --> Undefined variable $userCount
+in APPPATH\Views\admin\layout\container.php on line 41.
+ 1 APPPATH\Views\admin\layout\container.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCount', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/layout/container', [], true)
+ 5 APPPATH\Views\admin\index.php(52): view('admin/layout/container')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\AdminController.php(26): view('admin/index')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 05:07:40 --> Undefined variable $userCount
+in APPPATH\Views\admin\layout\container.php on line 41.
+ 1 APPPATH\Views\admin\layout\container.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCount', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/layout/container', [], true)
+ 5 APPPATH\Views\admin\index.php(52): view('admin/layout/container')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\AdminController.php(26): view('admin/index')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+
+
+
+CRITICAL - 2024-01-15 05:20:02 --> Undefined variable $productCount
+in APPPATH\Views\admin\layout\container.php on line 12.
+ 1 APPPATH\Views\admin\layout\container.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productCount', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\layout\\container.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/layout/container', [], true)
+ 5 APPPATH\Views\admin\index.php(52): view('admin/layout/container')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\index.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 9 APPPATH\Controllers\AdminController.php(26): view('admin/index')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2024-01-15 05:25:58 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'tathingochan_2166007' in C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'tathingochan_21...', 3306, '', 0)
+#1 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\app\Controllers\AdminController.php(103): CodeIgniter\BaseModel->first()
+#7 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+#8 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htd...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'tathingochan_2166007' in C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\app\Controllers\AdminController.php(103): CodeIgniter\BaseModel->first()
+#6 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+#7 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htd...')
+#11 {main}
+CRITICAL - 2024-01-15 05:25:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'tathingochan_2166007'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `taikhoan`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AdminController.php(103): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+ERROR - 2024-01-15 05:31:26 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'tathingochan_2166007' in C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'tathingochan_21...', 3306, '', 0)
+#1 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\app\Controllers\AdminController.php(103): CodeIgniter\BaseModel->first()
+#7 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+#8 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htd...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'tathingochan_2166007' in C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\app\Controllers\AdminController.php(103): CodeIgniter\BaseModel->first()
+#6 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+#7 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp_nh\htdocs\MON_WEBSITE_TM\BAITAPLON\CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htd...')
+#11 {main}
+CRITICAL - 2024-01-15 05:31:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'tathingochan_2166007'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `taikhoan`
+WHERE `username` = :username:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AdminController.php(103): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-15 08:19:53 --> Undefined array key "formatted_price"
+in APPPATH\Views\user\badminton.php on line 88.
+ 1 APPPATH\Views\user\badminton.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formatted_price"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\badminton.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\badminton.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/badminton', [], true)
+ 5 APPPATH\Controllers\BadController.php(37): view('user/badminton', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\BadController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BadController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\public\\index.php')
+CRITICAL - 2024-01-15 08:20:10 --> Undefined array key "formatted_price"
+in APPPATH\Views\user\golf.php on line 83.
+ 1 APPPATH\Views\user\golf.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formatted_price"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\golf.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\golf.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/golf', [], true)
+ 5 APPPATH\Controllers\GolfController.php(35): view('user/golf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\GolfController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GolfController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\public\\index.php')
+CRITICAL - 2024-01-15 08:21:44 --> Undefined array key ""
+in APPPATH\Views\user\golf.php on line 83.
+ 1 APPPATH\Views\user\golf.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\golf.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\golf.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/golf', [], true)
+ 5 APPPATH\Controllers\GolfController.php(26): view('user/golf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\GolfController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GolfController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\public\\index.php')
+CRITICAL - 2024-01-15 08:22:38 --> Undefined array key "formatted_price"
+in APPPATH\Views\user\golf.php on line 83.
+ 1 APPPATH\Views\user\golf.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formatted_price"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\golf.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\golf.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/golf', [], true)
+ 5 APPPATH\Controllers\GolfController.php(35): view('user/golf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\GolfController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GolfController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\public\\index.php')
+CRITICAL - 2024-01-15 08:31:41 --> Undefined array key "formatted_price"
+in APPPATH\Views\user\snow.php on line 80.
+ 1 APPPATH\Views\user\snow.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formatted_price"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\snow.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\snow.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/snow', [], true)
+ 5 APPPATH\Controllers\SnowController.php(23): view('user/snow', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SnowController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SnowController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\public\\index.php')
+CRITICAL - 2024-01-15 08:32:59 --> Undefined array key "formatted_price"
+in APPPATH\Views\user\snow.php on line 80.
+ 1 APPPATH\Views\user\snow.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formatted_price"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\snow.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\snow.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/snow', [], true)
+ 5 APPPATH\Controllers\SnowController.php(23): view('user/snow', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SnowController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SnowController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\public\\index.php')
+CRITICAL - 2024-01-15 08:34:39 --> Undefined array key "formatted_price"
+in APPPATH\Views\user\tennis.php on line 81.
+ 1 APPPATH\Views\user\tennis.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formatted_price"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\tennis.php', 81)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\tennis.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/tennis', [], true)
+ 5 APPPATH\Controllers\TennisController.php(23): view('user/tennis', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TennisController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TennisController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\public\\index.php')
+CRITICAL - 2024-01-15 08:35:39 --> Undefined array key "formatted_price"
+in APPPATH\Views\user\running.php on line 80.
+ 1 APPPATH\Views\user\running.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formatted_price"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\running.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\app\\Views\\user\\running.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/running', [], true)
+ 5 APPPATH\Controllers\RunController.php(23): view('user/running', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RunController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RunController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\tathingochan_21662007\\public\\index.php')

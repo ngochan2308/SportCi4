@@ -1,0 +1,271 @@
+CRITICAL - 2024-01-12 03:02:47 --> Call to undefined method App\Controllers\ProfileController::isLoggedIn()
+in APPPATH\Controllers\ProfileController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+
+
+CRITICAL - 2024-01-12 03:12:27 --> Class "App\Controllers\AuthHelper" not found
+in APPPATH\Controllers\ProfileController.php on line 12.
+ 1 APPPATH\Controllers\ProfileController.php(17): App\Controllers\ProfileController->isLoggedIn()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:12:45 --> Class "App\Controllers\AuthHelper" not found
+in APPPATH\Controllers\AdminController.php on line 16.
+ 1 APPPATH\Controllers\AdminController.php(21): App\Controllers\AdminController->isLoggedIn()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:15:14 --> Call to undefined method App\Controllers\ProfileController::isLoggedIn()
+in APPPATH\Controllers\ProfileController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:16:04 --> Undefined array key "username"
+in APPPATH\Views\user\profile\index.php on line 17.
+ 1 APPPATH\Views\user\profile\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/profile/index', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(25): view('user/profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:16:05 --> Undefined array key "username"
+in APPPATH\Views\user\profile\index.php on line 17.
+ 1 APPPATH\Views\user\profile\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/profile/index', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(25): view('user/profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:16:28 --> Call to undefined method App\Controllers\ProfileController::isLoggedIn()
+in APPPATH\Controllers\ProfileController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:20:08 --> Call to undefined method App\Controllers\AdminController::isLoggedIn()
+in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:20:48 --> Class "App\Controllers\AuthHelper" not found
+in APPPATH\Controllers\AdminController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:20:52 --> Class "App\Controllers\AuthHelper" not found
+in APPPATH\Controllers\AdminController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:25:02 --> Class "App\Controllers\AuthHelper" not found
+in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:29:09 --> Undefined array key "username"
+in APPPATH\Views\user\profile\index.php on line 17.
+ 1 APPPATH\Views\user\profile\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/profile/index', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(30): view('user/profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:31:13 --> Undefined array key "email"
+in APPPATH\Views\user\profile\index.php on line 25.
+ 1 APPPATH\Views\user\profile\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/profile/index', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(30): view('user/profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:33:43 --> Undefined array key "email"
+in APPPATH\Views\user\profile\index.php on line 96.
+ 1 APPPATH\Views\user\profile\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/profile/index', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(30): view('user/profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:33:44 --> Undefined array key "email"
+in APPPATH\Views\user\profile\index.php on line 96.
+ 1 APPPATH\Views\user\profile\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\user\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/profile/index', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(30): view('user/profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:38:15 --> Undefined property: App\Controllers\AdminController::$session
+in APPPATH\Controllers\AdminController.php on line 107.
+ 1 APPPATH\Controllers\AdminController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$session', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AdminController.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:39:17 --> Undefined property: App\Controllers\AdminController::$session
+in APPPATH\Controllers\AdminController.php on line 107.
+ 1 APPPATH\Controllers\AdminController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$session', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AdminController.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:41:56 --> Undefined property: App\Controllers\AdminController::$session
+in APPPATH\Controllers\AdminController.php on line 109.
+ 1 APPPATH\Controllers\AdminController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$session', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AdminController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:42:37 --> Undefined property: App\Controllers\AdminController::$session
+in APPPATH\Controllers\AdminController.php on line 112.
+ 1 APPPATH\Controllers\AdminController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$session', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AdminController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:43:50 --> Undefined property: App\Controllers\AdminController::$session
+in APPPATH\Controllers\AdminController.php on line 113.
+ 1 APPPATH\Controllers\AdminController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$session', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AdminController.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:46:08 --> Undefined property: App\Controllers\AdminController::$session
+in APPPATH\Controllers\AdminController.php on line 112.
+ 1 APPPATH\Controllers\AdminController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$session', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AdminController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:48:01 --> Undefined property: App\Controllers\AdminController::$session
+in APPPATH\Controllers\AdminController.php on line 108.
+ 1 APPPATH\Controllers\AdminController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$session', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AdminController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 03:48:33 --> Undefined property: App\Controllers\AdminController::$session
+in APPPATH\Controllers\AdminController.php on line 109.
+ 1 APPPATH\Controllers\AdminController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$session', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AdminController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 04:02:28 --> Array callback must have exactly two elements
+in APPPATH\Controllers\AdminController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 04:02:50 --> Array callback must have exactly two elements
+in APPPATH\Controllers\AdminController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->processLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 04:58:30 --> Undefined variable $category
+in APPPATH\Views\admin\acc_admin\edit.php on line 36.
+ 1 APPPATH\Views\admin\acc_admin\edit.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\acc_admin\\edit.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\acc_admin\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/acc_admin/edit', [], true)
+ 5 APPPATH\Controllers\AccountAdminController.php(111): view('admin/acc_admin/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->edit('44')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 05:30:54 --> Undefined variable $category
+in APPPATH\Views\admin\acc_admin\edit.php on line 36.
+ 1 APPPATH\Views\admin\acc_admin\edit.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\acc_admin\\edit.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\acc_admin\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/acc_admin/edit', [], true)
+ 5 APPPATH\Controllers\AccountAdminController.php(122): view('admin/acc_admin/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->edit('47')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 05:31:35 --> Undefined variable $category
+in APPPATH\Views\admin\acc_admin\edit.php on line 36.
+ 1 APPPATH\Views\admin\acc_admin\edit.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\acc_admin\\edit.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Views\\admin\\acc_admin\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/acc_admin/edit', [], true)
+ 5 APPPATH\Controllers\AccountAdminController.php(122): view('admin/acc_admin/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->edit('44')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 06:13:06 --> Undefined variable $imageName
+in APPPATH\Controllers\AccountAdminController.php on line 133.
+ 1 APPPATH\Controllers\AccountAdminController.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\app\\Controllers\\AccountAdminController.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AccountAdminController->update('45')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountAdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
+CRITICAL - 2024-01-12 16:26:35 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\user\about.php on line 134.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/about', [], true)
+ 3 APPPATH\Controllers\AboutUsController.php(17): view('user/about')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AboutUsController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AboutUsController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp_nh\\htdocs\\MON_WEBSITE_TM\\BAITAPLON\\CI4\\public\\index.php')
